@@ -1,0 +1,19 @@
+
+ <!-- Spring Boot JDBC --> 
+<dependency> 
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-jdbc</artifactId>
+</dependency>
+<!-- oracle -->
+<dependency>
+       <groupId>com.oracle</groupId>
+       <artifactId>ojdbc14</artifactId>
+       <version>10.2.0.4.0</version>
+</dependency
+--------------------- 
+
+spring.datasource.driver-class-name: oracle.jdbc.driver.OracleDriver
+spring.datasource.url: jdbc:oracle:thin:@192.168.0.11:1521:orcl
+spring.datasource.username: ljkj_test
+spring.datasource.password: ljkj_test
+--------------------- 
